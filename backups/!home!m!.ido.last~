@@ -1,0 +1,66 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/m/clojure/superjushi/resources/templates/md/" . "posts/")
+ ("/home/m/clojure/superjushi/resources/templates/" . "md/")
+ ("/home/m/clojure/superjushi/resources/" . "templates/")
+ ("/home/m/clojure/superjushi/" . "resources/")
+ ("/home/m/clojure/brave-clojure/src/" . "brave_clojure/")
+ ("/home/m/clojure/brave-clojure/" . "src/")
+ ("/home/m/clojure/" . "superjushi/")
+ ("/home/m/.lein/" . "self-installs/")
+ ("/home/m/" . "clojure/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/m/clojure/superjushi/resources/templates/md/posts/"
+ "/home/m/clojure/superjushi/resources/templates/"
+ "/home/m/clojure/brave-clojure/src/brave_clojure/"
+ "/home/m/.lein/"
+ "/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "profiles.clj"
+ "lein"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/m/clojure/superjushi/resources/templates/md/posts/" (21684 58588 998545 266000) "11-04-2014-second-post.md" "13-11-2014-docs.md" "./" "10-03-2014-first-post.md" "../")
+
+ ("/home/m/clojure/superjushi/resources/templates/md/pages/" (21684 58588 998545 266000) "another-page.md" "about.md" "./" "../")
+
+ ("/home/m/clojure/superjushi/resources/templates/md/" (21684 58588 998545 266000) "./" "posts/" "pages/" "../")
+
+ ("/home/m/clojure/superjushi/resources/templates/" (21684 59254 306517 287000) "js/" "404.html" "config.edn" "asc/" "md/" "./" "html/" "css/" "../")
+
+ ("/home/m/clojure/superjushi/resources/" (21684 58758 486538 138000) "public/" "./" "../" "templates/")
+
+ ("/home/m/clojure/superjushi/" (21684 58746 730538 633000) "project.clj" ".gitignore" "resources/" "./" "target/" "src/" "../")
+
+ ("/home/m/clojure/" (21684 58588 990545 266000) "superjushi/" "./" "brave-clojure/" "../")
+
+ ("/home/m/Desktop/" (21684 54572 434175 458000) "./" "../")
+
+ ("/home/m/" (21684 58254 450559 335000) ".aptitude/" ".xsession-errors" "bash_bashrc" ".cache/" ".gitconfig" ".gconf/" "Documents/" "examples.desktop" "Desktop/" ".dropbox/" ".dbus/" ".profile" ".Xauthority" ".pki/" ".macromedia/" ".ssh/" "clojure/" "Music/" "./" ".adobe/" ".dropbox-dist/" ".bashrc" "Downloads/" ".lastpass/" "Public/" ".bash_history" "bash_profile" ".local/" ".nv/" ".emacs.d/" ".m2/" "Templates/" ".compiz/" ".gnome2_private/" ".bash_logout" ".config/" ".xinputrc" ".ido.last" "Pictures/" "../" ".gnome2/" "Dropbox/" ".xsession-errors.old" ".mozilla/" ".lein/" "Videos/" ".ICEauthority")
+
+ ("/home/m/clojure/brave-clojure/" (21683 57950 585185 217000) ".lein-repl-history" "README.md" "classes/" "project.clj" "doc/" ".gitignore" "lib/" "resources/" "./" "target/" ".lein-deps-sum" "src/" "LICENSE" ".hgignore" "../" "test/")
+
+ ("/home/m/clojure/brave-clojure/src/brave_clojure/" (21683 57223 577155 77000) "./" "../" "core.clj")
+
+ ("/home/m/clojure/brave-clojure/src/" (21683 57003 153145 938000) "brave_clojure/" "./" "../")
+
+ ("/home/" (21683 52984 204979 322000) "./" "lost+found/" "m/" "../")
+
+ ("/home/m/.lein/self-installs/" (21683 53065 152982 678000) "leiningen-2.5.1-standalone.jar" "./" "../")
+
+ ("/home/m/.lein/" (21683 53045 472981 862000) "./" "self-installs/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
