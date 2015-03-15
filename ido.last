@@ -1,0 +1,91 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/jinja_example/" . "templates/")
+ ("/ssh:action@apse2.nitrousbox.com#10180:workspace/" . "thinkful/")
+ ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/" . "jinja_example/")
+ ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/" . "projects/")
+ ("/ssh:action@apse2.nitrousbox.com#10180:" . "workspace/")
+ ("/Users/m/Development/python/" . "tbay/")
+ ("/Users/m/Development/" . "python/")
+ ("/Users/m/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/m/.emacs.d/"
+ "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/jinja_example/"
+ "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/jinja_example/templates/"
+ "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/jinja_example/templates/"
+ "/ssh:action@apse2.nitrousbox.com#10180:"
+ "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/helloworld_flask/"
+ "/ssh:apse2.nitrousbox.com:"
+ "/ssh:action@"
+ "/ssh:action@apse2.nitrousbox.com:"
+ "/Users/m/Development/python/tbay/"
+ "/Users/m/Development/python/snippets-cl/"
+ "/Users/m/Development/python/snippets-app/"
+ "/Users/m/Development/python/bikes/"
+ "/Users/m/Development/python/thinkful/"
+ "/Users/m/"
+ "/Users/m/Development/python/pirate_bartender/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "run.py"
+ "macros.html"
+ "template.html"
+ "base.html"
+ "hello_world.py"
+ "apse2.nitrousbox.com#10180"
+ "10180"
+ "apse2.nitrousbox.com"
+ "tbay.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/m/.emacs.d/" (21765 22638 0 0) "tramp" "themes/" "README.md" "python-env/" "projectile-bookmarks.eld" "places" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "emacs-for-python/" "elpa/" "customizations/" "current_python" "clojure-env/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
+
+ ("/Users/m/" (21765 21582 0 0) "Public/" "Pictures/" "Nitrous/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".Trash/" ".tmux.conf~" ".tmux.conf" ".ssh/" ".pyenv/" ".pydev.sh" ".psql_history" ".irc~" ".irc" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+
+ ("/usr/" (21683 23194 0 0) "X11R6/" "X11/" "standalone/" "share/" "sbin/" "local/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/usr/local/" (21738 29548 0 0) "var/" "SUPPORTERS.md" "share/" "README.md" "opt/" "LICENSE.txt" "Library/" "lib/" "include/" "etc/" "CONTRIBUTING.md" "CODEOFCONDUCT.md" "Cellar/" "bin/" ".yardopts" ".gitignore" ".git/" "../" "./")
+
+ ("/usr/local/Cellar/" (21739 11962 0 0) "tmux/" "readline/" "pyenv-virtualenv/" "pyenv/" "postgresql/" "pkg-config/" "openssl/" "libevent/" "emacs/" "brew-cask/" "autoconf/" "../" "./")
+
+ ("/usr/local/Cellar/emacs/" (21704 48122 0 0) "24.4/" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.4/" (21704 48127 0 0) "var/" "share/" "README" "libexec/" "INSTALL_RECEIPT.json" "homebrew.mxcl.emacs.plist" "COPYING" "ChangeLog" "bin/" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.4/share/" (21595 51581 0 0) "man/" "info/" "icons/" "emacs/" "applications/" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.4/share/info/" (21595 51579 0 0) "emacs/" "../" "./")
+
+ ("/usr/local/Cellar/emacs/24.4/share/info/emacs/" (21595 51581 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
+
+ ("/Users/m/Development/python/tbay/" (21755 50534 0 0) "tbay.py~" "tbay.pyc" "tbay.py" "env/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/m/Development/" (21729 33769 0 0) "python/" "minecraft/" "clojure/" ".DS_Store" "../" "./")
+
+ ("/Users/m/Development/python/" (21755 25226 0 0) "thinkful/" "tbay/" "snippets-cl/" "pirate_bartender/" "bikes/" ".DS_Store" "../" "./")
+
+ ("/Users/m/Development/python/snippets-cl/" (21751 32889 0 0) "snippets.py" "snippets.log" "schema.sql" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/m/Development/python/snippets-app/" (21740 7772 0 0) "snippets_database/" "snippets.py~" "snippets.pyc" "snippets.py" "snippets.log" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/m/Development/python/bikes/" (21746 45348 0 0) "main.py~" "main.py" "bicycles.py~" "bicycles.pyc" "bicycles.py" ".git/" "../" "./")
+
+ ("/Users/m/Development/python/thinkful/" (21735 58442 0 0) "musicians.py~" "musicians.pyc" "musicians.py" "fizzbuzz/" ".#musicians.py" "#musicians.py#" "../" "./")
+
+ ("/Users/m/Development/python/pirate_bartender/" (21721 40912 0 0) "README.md" "pirate_bar_v1.py" ".git/" "../" "./")
+
+ ("/Users/" (21683 21797 0 0) "Shared/" "m/" "Guest/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
