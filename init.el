@@ -50,3 +50,15 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(erc-autojoin-channels-alist (quote (("freenode.net" "#python" "#clojure"))))
+ '(erc-autojoin-mode t)
+ '(erc-hide-list (quote ("JOIN" "KICK" "NICK" "QUIT")))
+ '(erc-nick "_m___"))
+
+;; Unbind C-z for suspending the session in terminal
+(global-unset-key "\C-z")

@@ -2,18 +2,23 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/m/Development/python/lrn_mc_site/static/" . "css/")
+ ("/Users/m/Development/python/lrn_mc_site/" . "templates/")
  ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/jinja_example/" . "templates/")
  ("/ssh:action@apse2.nitrousbox.com#10180:workspace/" . "thinkful/")
  ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/" . "jinja_example/")
  ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/" . "projects/")
  ("/ssh:action@apse2.nitrousbox.com#10180:" . "workspace/")
- ("/Users/m/Development/python/" . "tbay/")
+ ("/Users/m/Development/python/" . "lrn_mc_site/")
  ("/Users/m/Development/" . "python/")
- ("/Users/m/" . ".emacs.d/")
+ ("/Users/m/" . "Development/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/m/Development/python/lrn_mc_site/"
+ "/Users/m/Development/python/lrn_mc_site/templates/"
+ "/Users/m/Development/python/lrn_mc_site/static/css/"
  "/Users/m/.emacs.d/"
  "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/jinja_example/"
  "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/jinja_example/templates/"
@@ -34,20 +39,30 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "run.py"
+ "header.html"
+ "landing-page.css"
+ "index.html"
+ "init.el"
  "macros.html"
  "template.html"
  "base.html"
  "hello_world.py"
  "apse2.nitrousbox.com#10180"
- "10180"
- "apse2.nitrousbox.com"
- "tbay.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/m/Development/python/lrn_mc_site/templates/" (21766 54389 0 0) "README.md" "LICENSE" "index.html~" "index.html" "header.html~" "header.html" ".DS_Store" "../" "./")
+
+ ("/Users/m/Development/python/lrn_mc_site/static/css/" (21766 53817 0 0) "landing-page.css~" "landing-page.css" "bootstrap.min.css" "bootstrap.css" "../" "./")
+
+ ("/Users/m/Development/python/lrn_mc_site/static/" (21766 26204 0 0) "js/" "img/" "fonts/" "font-awesome/" "css/" "../" "./")
+
+ ("/Users/m/Development/python/lrn_mc_site/" (21766 32478 0 0) "templates/" "static/" "run.py~" "run.py" "env2.7/" "../" "./")
+
+ ("/Users/m/Development/python/" (21766 24418 0 0) "thinkful/" "tbay/" "snippets-cl/" "pirate_bartender/" "lrn_mc_site/" "bikes/" ".DS_Store" "../" "./")
+
  ("/Users/m/.emacs.d/" (21765 22638 0 0) "tramp" "themes/" "README.md" "python-env/" "projectile-bookmarks.eld" "places" "init.el~" "init.el" "ido.last~" "ido.last" "eproject.lst" "emacs-for-python/" "elpa/" "customizations/" "current_python" "clojure-env/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
 
  ("/Users/m/" (21765 21582 0 0) "Public/" "Pictures/" "Nitrous/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".Trash/" ".tmux.conf~" ".tmux.conf" ".ssh/" ".pyenv/" ".pydev.sh" ".psql_history" ".irc~" ".irc" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".CFUserTextEncoding" ".bashrc" ".bash_profile" ".bash_history" ".atom/" "../" "./")
@@ -71,8 +86,6 @@
  ("/Users/m/Development/python/tbay/" (21755 50534 0 0) "tbay.py~" "tbay.pyc" "tbay.py" "env/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/m/Development/" (21729 33769 0 0) "python/" "minecraft/" "clojure/" ".DS_Store" "../" "./")
-
- ("/Users/m/Development/python/" (21755 25226 0 0) "thinkful/" "tbay/" "snippets-cl/" "pirate_bartender/" "bikes/" ".DS_Store" "../" "./")
 
  ("/Users/m/Development/python/snippets-cl/" (21751 32889 0 0) "snippets.py" "snippets.log" "schema.sql" ".gitignore" ".git/" "../" "./")
 
