@@ -1,0 +1,96 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Apr 12 20:50:41 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21802 21769 35196 0) (desktop . "206") "m@m-2.local" nil nil ((((environment "_=/usr/local/bin/emacsclient" "SECURITYSESSIONID=186a6" "ALTERNATE_EDITOR=emacs" "TMUX_PLUGIN_MANAGER_PATH=/Users/m/.tmux/plugins/" "VISUAL=emacsclient" "LOGNAME=m" "ITERM_SESSION_ID=w0t0p0" "HOME=/Users/m" "SHLVL=2" "XPC_SERVICE_NAME=0" "PS1=\\u:\\w $ " "TMUX_PANE=%8" "XPC_FLAGS=0x0" "ITERM_PROFILE=____" "LANG=en_AU.UTF-8" "EDITOR=emacsclient" "PWD=/Users/m" "PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Firefox.app/Contents/MacOS" "TMUX=/private/var/folders/vr/f0xx27611tz2x_5_yfj2tsv00000gn/T/tmux-501/default,8786,0" "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0" "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.UgQCH1VrhS/Listeners" "USER=m" "Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.knMV1OvTFx/Render" "TMPDIR=/var/folders/vr/f0xx27611tz2x_5_yfj2tsv00000gn/T/" "SHELL=/bin/bash" "TERM=screen-256color" "TERM_PROGRAM=iTerm.app") (client . "Unprintable entity") (tty-type . "screen-256color") (tty . "/dev/ttys009") (display-type . color) (background-mode . dark) (display) (frameset--id . "FF95-6A51-9816-08DD") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 51) (width . 204) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 204) (pixel-height . 50) (total-width . 204) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (buffer ".tmux.conf" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1463) (start . 812))) (((environment "SECURITYSESSIONID=186a6" "ALTERNATE_EDITOR=emacs" "TMUX_PLUGIN_MANAGER_PATH=/Users/m/.tmux/plugins/" "VISUAL=emacsclient" "LOGNAME=m" "ITERM_SESSION_ID=w0t0p0" "SHLVL=2" "HOME=/Users/m" "XPC_SERVICE_NAME=0" "XPC_FLAGS=0x0" "TMUX_PANE=%5" "ITERM_PROFILE=____" "LANG=en_AU.UTF-8" "EDITOR=emacsclient" "PWD=/Users/m" "_=/usr/bin/edit" "PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Firefox.app/Contents/MacOS" "TMUX=/private/var/folders/vr/f0xx27611tz2x_5_yfj2tsv00000gn/T/tmux-501/default,8786,0" "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0" "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.UgQCH1VrhS/Listeners" "USER=m" "Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.knMV1OvTFx/Render" "TMPDIR=/var/folders/vr/f0xx27611tz2x_5_yfj2tsv00000gn/T/" "TERM=screen-256color" "SHELL=/bin/bash" "TERM_PROGRAM=iTerm.app") (client . "Unprintable entity") (tty-type . "screen-256color") (tty . "/dev/ttys005") (display-type . color) (background-mode . dark) (display) (frameset--id . "DF7B-6A14-47B0-B1ED") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 51) (width . 204) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 50) (total-width . 204) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 50) (total-width . 102) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "views.py" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2966) (start . 2201))) (leaf (last . t) (pixel-width . 102) (pixel-height . 50) (total-width . 102) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "macros.html" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 937) (start . 1)))) (((tty-type . "screen-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "unspecified-fg") (menu-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 51) (width . 204) (modeline . t) (unsplittable) (title) (frameset--id . "8091-509C-7ACD-A86E") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 3) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 204) (pixel-height . 50) (total-width . 204) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 102) (pixel-height . 50) (total-width . 102) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "#clojure" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 7412) (start . 4199))) (leaf (last . t) (pixel-width . 102) (pixel-height . 50) (total-width . 102) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "#python" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 21019) (start . 20017)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ser" "ma" "markdown"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/m/.tmux.conf" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/macros.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/single_post.html" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/views.py" "/Users/m/.ssh/config" "/etc/ssh_config" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/views.py" "~/.emacs.d/" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/macros.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/single_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/posts.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/base.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/edit_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/add_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/views.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/add_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/edit_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/static/css/main.css" "/Users/m/.emacs.d/my-customizations/my-server-mode.el" "/ssh:action@apse2.nitrousbox.com#10180:workspace" "/Users/m/.bash_profile" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/views.py" "/Users/m/.tmux.conf" "/Users/m/.emacs.d/my-customizations/my-server-mode.el" "~/.emacs.d/init.el" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/posts.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/single_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/views.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/posts.html" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/templates/base.html" "/Users/m/.emacs.d/my-customizations/my-session-mgmt.el" "/Users/m/.emacs.d/init.el" "/Users/m/.tmuxinator/ig.yml" "/Users/m/Development/python/ig/ig/templates/base.html" "/Users/m/Development/python/ig/ig/views.py" "~/.tmuxinator/ig.yml" "/Users/m/.tmuxinator/ig.yml" "/Users/m/Development/python/ig/ig/models.py" "/Users/m/.tmux.conf" "/Users/m/.tmuxinator/ig.yml" "/Users/m/.emacs.d/my-customizations/my-scratch.el" "/Users/m/.emacs.d/my-customizations/my-menu-bar.el" "/Users/m/.emacs.d/my-customizations/my-erc-settings.el" "/Users/m/.emacs.d/my-customizations/my-session-mgmt.el" "/Users/m/.emacs.d/my-customizations/my-server-mode.el" "/Users/m/.emacs.d/my-customizations/my-erc-settings.el" "/Users/m/.emacs.d/my-customizations/my-erc-pass.el" "/Users/m/.emacs.d/my-customizations/my-cut-paste.el" "/Users/m/.emacs.d/my-customizations/my-menu-bar.el" "/Users/m/.emacs.d/py-customizations/erc.el" "/Users/m/.emacs.d/py-customizations/cut-paste.el" "~/.emacs.d/py-customizations/" "/Users/m/.emacs.d/py-customizations/cut-paste.el" "/Users/m/.emacs.d/init.el" "/Users/m/.emacs.d/python-env/init.el" "~/.emacs.d/" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/single_post.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/base.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/views.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/config.py" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/manage.py" "~/.emacs.d/" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/base.html" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/models.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/manage.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/macros.html" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/static/css/main.css" "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/views.py" "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/base.html" "/ssh:action@apse2.nitrousbox.com#10180:" "/ssh:action@apse2.nitrousbox.com#10180:workspace/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/m/.tmux.conf"
+  ".tmux.conf"
+  'conf-space-mode
+  nil
+  1463
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/.tmuxinator/ig.yml"
+  "ig.yml"
+  'fundamental-mode
+  nil
+  906
+  '(892 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-emacs-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/.ssh/config"
+  "config"
+  'conf-space-mode
+  nil
+  140
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/.bash_profile"
+  ".bash_profile"
+  'sh-mode
+  '(auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode)
+  1831
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/.emacs.d/my-customizations/my-session-mgmt.el"
+  "my-session-mgmt.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode)
+  102
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/m/Development/python/ig/ig/templates/base.html"
+  "base.html"
+  'html-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

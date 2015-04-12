@@ -1,6 +1,8 @@
-;;;;
-;; Packages
-;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                                             ;; 
+;;    ;; ;; ;;  PACKAGES MGMT  ;; ;; ;;        ;;
+;;                                             ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Define package repositories
 (require 'package)
@@ -24,41 +26,56 @@
   (package-refresh-contents))
 
 ;; The packages you want installed. You can also install these
-;; manually with M-x package-install
-;; Add in your own as you wish:
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
 
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                                             ;; 
+;;    ;; ;; ;;  MY CUSTOMIZATIONS  ;; ;; ;;    ;;
+;;                                             ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Customisations for Copy & Paste
-;; And ability to use system clipboard
- '(delete-selection-mode t)
- '(kill-do-not-save-duplicates t)
- '(save-interprogram-paste-before-kill t)
- '(yank-pop-change-selection t)
+;; Add `my-customizations` directory to load path
+(add-to-list 'load-path "~/.emacs.d/my-customizations")
 
-;; enable clipboard in emacs
- (setq x-select-enable-clipboard t)
+;; Set-up to use cut and paste in Emacs in terminal
+(load "my-cut-paste.el")
+
+;; Set-up Emacs IRC settings 
+(load "my-erc-settings.el")
+
+;; Settings for Emacs server
+(load "my-server-mode.el")
+
+;; Session Management file
+(load "my-session-mgmt.el")
+
+;; Not load with *scratch* buffer
+(load "my-scratch.el")
+
+;; Turn Off the Menu Bar
+(menu-bar-mode -1)
+
+;; Unbind C-z for to avoid suspending
+;; the session in tmux 
+(global-unset-key "\C-z")
+
+;; Don't lock files
+(setq create-lockfiles "nil")
 
 
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(w3m-command "w3m"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(erc-autojoin-channels-alist (quote (("freenode.net" "#python" "#clojure"))))
- '(erc-autojoin-mode t)
- '(erc-hide-list (quote ("JOIN" "KICK" "NICK" "QUIT")))
- '(erc-nick "_m___"))
-
-;; Unbind C-z for suspending the session in terminal
-(global-unset-key "\C-z")

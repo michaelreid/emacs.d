@@ -31,3 +31,19 @@
 ;; manually with M-x package-install
 ;; Add in your own as you wish:
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+
+;;;;
+;; Customization
+;;;;
+
+;; Add a directory to our load path so that when you `load` things
+;; below, Emacs knows where to look for the corresponding file.
+(add-to-list 'load-path "~/.emacs.d/py-customizations")
+
+;; Set-up to use cut and paste in Emacs in terminal
+;;
+(load "cut-paste.el")
+
+;; These customizations make it easier for you to navigate files,
+;; switch buffers, and choose options from the minibuffer.
+(load "erc.el")
