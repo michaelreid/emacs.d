@@ -13,12 +13,6 @@
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
-
-;; Load and activate emacs packages. Do this first so that the
-;; packages are loaded before you start trying to modify them.
-;; This also sets the load path.
-(package-initialize)
-
 ;; Download the ELPA archive description if needed.
 ;; This informs Emacs about the latest versions of all packages, and
 ;; makes them available for download.
@@ -28,7 +22,10 @@
 ;; The packages you want installed. You can also install these
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 
-
+;; Load and activate emacs packages. Do this first so that the
+;; packages are loaded before you start trying to modify them.
+;; This also sets the load path.
+(package-initialize)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -45,6 +42,9 @@
 
 ;; Set-up Emacs IRC settings 
 (load "my-erc-settings.el")
+
+;; Settings for using emacs-w3m
+(load "my-emacs-w3m-settings.el")
 
 ;; Settings for Emacs server
 (load "my-server-mode.el")
@@ -65,17 +65,5 @@
 ;; Don't lock files
 (setq create-lockfiles "nil")
 
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(w3m-command "w3m"))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+;; All yes or no queries to 'y or n'
+(fset 'yes-or-no-p 'y-or-n-p)

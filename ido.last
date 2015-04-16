@@ -32,13 +32,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/m/.emacs.d/my-customizations/"
+ "/Users/m/.emacs.d/"
  "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/"
  "/Users/m/"
- "/Users/m/.emacs.d/my-customizations/"
  "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/templates/"
  "/ssh:action@apse2.nitrousbox.com#10180:/home/action/workspace/thinkful/projects/blog/blog/"
  "/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/templates/"
- "/Users/m/.emacs.d/"
  "/Users/m/.emacs.d/emacs-for-python/extensions/auto-complete/"
  "/Users/m/.tmuxinator/"
  "/Users/m/.emacs.d/py-customizations/"
@@ -77,6 +77,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "my-emacs-w3m-settings.el"
+ "init.el"
  "views.py"
  ".tmux.conf"
  "my-server-mode.el"
@@ -85,45 +87,39 @@
  "single_post.html"
  "base.html"
  "my-session-mgmt.el"
- "init.el"
- "auto-complete.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/blog/" (ftp . 396897.61083333334) "filters.pyc" "config.pyc" "models.py" "views.pyc" "static/" "login.py" "views.py" "__init__.py" "./" "database.py" "../" "config.py" "models.pyc" "templates/" "login.pyc" "database.pyc" "__init__.pyc" "filters.py")
+ ("/Users/m/Development/python/ig/ig/" (21802 16001 0 0) "views.py~" "views.pyc" "views.py" "templates/" "static/" "response.json" "response" "models.pyc" "models.py" "insta.py~" "insta.pyc" "insta.py" "filters.pyc" "filters.py" "database.py" "config.py~" "config.pyc" "config.py" "access_token" "__init__.py~" "__init__.pyc" "__init__.py" ".emacs.desktop" ".#views.py" "#views.py#" "../" "./")
 
- ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/blog/" (ftp . 396897.6094444444) ".git/" "blog/" "manage.py" "migrations/" "./" "../" "requirements.txt" ".gitignore" "env/")
+ ("/Users/m/Development/python/ig/ig/templates/" (21801 65163 0 0) "success.html~" "success.html" "popular.html~" "popular.html" "menu.html~" "menu.html" "macros.html" "base.html" "#base.html#" "../" "./")
 
- ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/projects/" (ftp . 396897.6086111111) "pirate_bartender/" "blog/" "template_flask_app/" "distillery/" "./" "ig/" "jinja_example/" "template/" "../" "helloworld_flask/" "lrn_mc_site/" "fizzbuzz/" "hello_world/" "snippets-app/" "tbay/")
+ ("/Users/m/.ssh/" (21804 46719 0 0) "known_hosts" "id_rsa.pub" "id_rsa" "config~" "config" "../" "./")
 
- ("/ssh:action@apse2.nitrousbox.com#10180:workspace/thinkful/" (ftp . 396897.60833333334) "backups/" "./" "../" "notes/" "projects/")
+ ("/Users/m/.emacs.d/py-customizations/" (21800 60936 0 0) "../" "./")
 
- ("/ssh:action@apse2.nitrousbox.com#10180:workspace/" (ftp . 396897.6072222222) "thinkful/" "README.md" "./" "../")
+ ("/Users/m/.tmuxinator/" (21802 16228 0 0) "ig.yml~" "ig.yml" "development.yml~" "development.yml" "blog.yml~" ".#development.yml" "#development.yml#" "../" "./")
 
- ("/Users/m/" (21802 3491 0 0) "Qt/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "emacs-tmux" "Dropbox/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".viminfo" ".Trash/" ".tmuxinator/" ".tmux.conf~" ".tmux.conf" ".tmux/" ".ssh/" ".pyenv/" ".pydev.sh~" ".pydev.sh" ".psql_history" ".netrc" ".irc~" ".irc" ".heroku/" ".gem/" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".atom/" "../" "./")
+ ("/Users/m/.emacs.d/emacs-for-python/extensions/auto-complete/" (21800 61088 0 0) "popup.el" "fuzzy.el" "dict/" "COPYING.GPLv3.txt" "COPYING.FDL.txt" "auto-complete.el" "auto-complete-config.el" "../" "./")
 
- ("/Users/m/.tmuxinator/" (21801 63995 0 0) "ig.yml~" "ig.yml" "development.yml~" "development.yml" "blog.yml~" ".#development.yml" "#ig.yml#" "#development.yml#" "../" "./")
+ ("/Users/m/.emacs.d/" (21805 17469 0 0) "tramp" "themes/" "server/" "python-env/" "py-customizations/" "projectile-bookmarks.eld" "places" "my-customizations/" "m_emacs_notes.txt~" "m_emacs_notes.txt" "init.el~" "init.el.save" "init.el" "ido.last~" "ido.last" "games/" "eproject.lst" "emacs-for-python/" "elpa/" "customizations/" "current-init.el" "clojure-env/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
 
- ("/Users/m/.emacs.d/my-customizations/" (21801 64911 0 0) "my-session-mgmt.el~" "my-session-mgmt.el" "my-server-mode.el~" "my-server-mode.el" "my-scratch.el~" "my-scratch.el" "my-erc-settings.el~" "my-erc-settings.el" "my-erc-pass.el~" "my-erc-pass.el" "my-cut-paste.el~" "my-cut-paste.el" "../" "./")
+ ("/Users/m/.emacs.d/my-customizations/" (21805 17399 0 0) "my-session-mgmt.el~" "my-session-mgmt.el" "my-server-mode.el~" "my-server-mode.el" "my-scratch.el~" "my-scratch.el" "my-erc-settings.el~" "my-erc-settings.el" "my-erc-pass.el~" "my-erc-pass.el" "my-emacs-w3m-settings.el~" "my-emacs-w3m-settings.el" "my-cut-paste.el~" "my-cut-paste.el" "../" "./")
 
- ("/Users/m/.emacs.d/" (21802 1594 0 0) "tramp" "themes/" "server/" "python-env/" "py-customizations/" "projectile-bookmarks.eld" "places" "my-customizations/" "init.el~" "init.el.save" "init.el" "ido.last~" "ido.last" "games/" "eproject.lst" "emacs-for-python/" "elpa/" "customizations/" "current-init.el" "clojure-env/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" "abbrev_defs" ".gitignore" ".git/" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+ ("/Users/m/.w3m/" (21805 17491 0 0) "history" ".sessions" ".cookie" ".arrived" "../" "./")
 
- ("/Users/m/Development/python/ig/ig/" (21800 64291 0 0) "views.py~" "views.pyc" "views.py" "templates/" "static/" "response.json" "response" "models.pyc" "models.py" "insta.py~" "insta.pyc" "insta.py" "filters.pyc" "filters.py" "database.py" "config.py~" "config.pyc" "config.py" "access_token" "__init__.py~" "__init__.pyc" "__init__.py" ".emacs.desktop" "../" "./")
+ ("/Users/m/" (21805 5987 0 0) "thanks_aainaa.txt~" "thanks_aainaa.txt" "Qt/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "emacs-tmux" "Dropbox/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".w3m/" ".viminfo" ".Trash/" ".tmuxinator/" ".tmux.conf~" ".tmux.conf" ".tmux/" ".ssh/" ".pyenv/" ".pydev.sh~" ".pydev.sh" ".psql_history" ".netrc" ".lesshst" ".irc~" ".irc" ".heroku/" ".gem/" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".bashrc" ".bash_profile~" ".bash_profile" ".bash_history" ".atom/" "../" "./")
 
- ("/Users/m/Development/python/ig/ig/templates/" (21801 378 0 0) "success.html~" "success.html" "popular.html~" "popular.html" "menu.html~" "menu.html" "macros.html" "base.html" "#base.html#" "../" "./")
+ ("/Users/m/.emacs.d/elpa/" (21804 47521 0 0) "xclip-1.3/" "web-readme.txt" "w3m-readme.txt" "w3m-20150406.318/" "w3m-20150403.359/" "w3-4.0.49/" "tramp-term-20141104.1345/" "tagedit-20141021.2139/" "smex-20141210.1422/" "second-sel-readme.txt" "s-20140910.334/" "rainbow-delimiters-20150320.17/" "queue-0.1.1/" "pyvenv-1.4/" "python-environment-20150310.153/" "pylint-1.0/" "pyflakes-1.0/" "projectile-20150402.1412/" "projectile-20140716.416/" "popup-20150315.612/" "pkg-info-20140610.630/" "paredit-20150217.713/" "on-screen-readme.txt" "on-screen-20150317.2134/" "magit-20150402.729/" "jedi-core-20150404.31/" "jedi-20150318.1613/" "ido-ubiquitous-20150305.2254/" "git-rebase-mode-20150122.1114/" "git-commit-mode-20150330.1048/" "frame-cmds-readme.txt" "exec-path-from-shell-20141212.846/" "epl-20150326.1212/" "epc-20140609.2234/" "epc-0.1.1/" "deferred-20150309.2052/" "dash-20150311.2355/" "ctable-20140304.1659/" "concurrent-20150309.2052/" "clojure-mode-extra-font-locking-20150110.505/" "clojure-mode-20150315.256/" "cl-lib-0.5/" "cider-readme.txt" "cider-20150402.2252/" "auto-complete-20150322.813/" "auto-complete-1.4/" "archives/" "../" "./")
 
- ("/Users/m/.emacs.d/emacs-for-python/extensions/auto-complete/" (21708 24352 0 0) "popup.el" "fuzzy.el" "dict/" "COPYING.GPLv3.txt" "COPYING.FDL.txt" "auto-complete.el" "auto-complete-config.el" "../" "./")
+ ("/Users/m/.emacs.d/elpa/w3m-20150406.318/" (21804 47524 0 0) "w3mhack.elc" "w3mhack.el" "w3m.elc" "w3m.el" "w3m-weather.el" "w3m-util.elc" "w3m-util.el" "w3m-ucs.el" "w3m-tabmenu.el" "w3m-symbol.elc" "w3m-symbol.el" "w3m-session.elc" "w3m-session.el" "w3m-search.el" "w3m-save.el" "w3m-rss.elc" "w3m-rss.el" "w3m-proc.elc" "w3m-proc.el" "w3m-pkg.el" "w3m-perldoc.el" "w3m-namazu.el" "w3m-mail.el" "w3m-lnum.el" "w3m-image.elc" "w3m-image.el" "w3m-hist.elc" "w3m-hist.el" "w3m-form.el" "w3m-filter.el" "w3m-fb.elc" "w3m-fb.el" "w3m-favicon.elc" "w3m-favicon.el" "w3m-ems.elc" "w3m-ems.el" "w3m-dtree.el" "w3m-cookie.el" "w3m-ccl.elc" "w3m-ccl.el" "w3m-bug.elc" "w3m-bug.el" "w3m-bookmark.el" "w3m-autoloads.el" "w3m-antenna.el" "mime-w3m.el" "icons/" "bookmark-w3m.elc" "bookmark-w3m.el" "../" "./")
 
  ("/Users/m/.emacs.d/emacs-for-python/extensions/" (21708 24352 0 0) "yasnippet/" "virtualenv.el" "snippet-helpers.el" "smart-operator.el" "python.el" "pymacs.el" "open-next-line.el" "nose.el" "highlight-indentation.el" "flymake-patch.el" "flymake-cursor.el" "epy-project.el" "eproject/" "cython-mode.el" "autopair.el" "auto-complete/" "../" "./")
 
  ("/Users/m/.emacs.d/emacs-for-python/" (21708 24352 0 0) "snippets/" "scripts/" "README.org" "python-libs/" "extensions/" "epy-setup.el" "epy-python.el" "epy-nose.el" "epy-init.el" "epy-editing.el" "epy-completion.el" "epy-bindings.el" "doc/" "COPYING" "CONTRIBUTORS" "ChangeLog" ".gitignore" ".git/" "../" "./")
 
  ("/Users/m/.emacs.d/python-env/" (21800 53672 0 0) "init.el" "../" "./")
-
- ("/Users/m/.emacs.d/py-customizations/" (21800 53302 0 0) "cut-paste.el" "../" "./")
-
- ("/Users/m/.ssh/" (21798 29182 0 0) "known_hosts" "id_rsa.pub" "id_rsa" "config~" "config" "../" "./")
 
  ("/Users/m/.emacs.d/clojure-env/" (21704 7308 0 0) "init.el" "../" "./")
 
